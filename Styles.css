@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #141414;
+}
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    background: #131313;
+}
+
+#navbar__logo {
+    background-color: #0962ba;
+    background-image: linear-gradient(to top, #09C6F9 0%, #045DE9 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    background: #131313;
+}
+
+.navbar__items {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.navbar__links:hover {
+ color: #1372d1;
+ transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+      display: flex;
+      justify-content: space-between;
+      height: 80px;
+      z-index: 1;
+      width: 100%;
+      max-width: 1300px;
+      padding: 0;
+    }
+  
+    .navbar__menu {
+      display: grid;
+      grid-template-columns: auto;
+      margin: 0;
+      width: 100%;
+      position: absolute;
+      top: -1000px;
+      opacity: 0;
+      transition: all 0.5s ease;
+      height: 50vh;
+      z-index: -1;
+    }
+  
+    .navbar__menu.active {
+      background: #131313;
+      top: 100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 99;
+      height: 50vh;
+      font-size: 1.6rem;
+    }
+  
+    #navbar__logo {
+      padding-left: 25px;
+    }
+  
+    .navbar__toggle .bar {
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      transition: all 0.3s ease-in-out;
+      background: #fff;
+    }
+
+    .navbar__item {
+        width:  100%;
+    }
+
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+    
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+    
+      #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+
+
+}
+
+.main {
+    background-color: #141414;
+}
+
+.main h1 {
+    color: #fff;
+    
+}
+.main__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+}
+
+.main__content h1 {
+    font-size: 4rem;
+    background-color: #1372d1;
+    background-image: linear-gradient(to top,#09C6F9 0%, #045DE9 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main__content h2 {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #1372d1;
+    background-image: linear-gradient(to top,#ffffff 0%, #c3d9fc 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
+}
+
+.main__img--container {
+    background-color: #141414;
+}
+
+@media screen and (max-width: 768px) {
+    .main__container{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        height: 90vh;
+        margin: 0 auto;
+        background-color: #141414;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+    
+    .main__content h2 {
+        font-size: 2rem;
+    }
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #131313;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+footer h1{
+    padding-right: 20px;
+    font-size: 1rem;
+    text-align: right;
+    background-color: #1372d1;
+    background-image: linear-gradient(to top,#ffffff 0%, #c3d9fc 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+footer button {
+    position: relative;
+    left: 50%;
+    -ms-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #1372d1;
+}
+
+.contact:hover {
+cursor: pointer;
+background-color: #2688eb;
+}
+
+.itch:hover {
+    cursor: pointer;
+    background-color: #2688eb;
+}
+
+.mainWolfGame {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+    background: none;
+    background-color: transparent;
+    
+    
+}
+.WolfGame {
+    color: #fff;
+    background: none;
+    background-color: transparent;
+    background-image: url("/images/Claws.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.WolfGame h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.WolfGame center{
+    background: none;
+    background-color: transparent;
+}
+.wolflink{
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    background-color: transparent;
+
+}
+.WolfGame h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.WolfGame h3 {
+    padding: 10px;
+    background: none;
+background-color: transparent;
+}
+
+#Project__img {
+width: 90%;
+height: 90%;
+background: none;
+background-color: transparent;
+}
+
+.description {
+background: none;
+background-color: transparent;
+}
+
+.game1 {
+    background: none;
+    background-color: transparent;
+}
+
+.game1Img{
+    background: none;
+    background-color: transparent;
+}
+.game1 small {
+    background: none;
+    background-color: transparent;
+}
+.PillGame h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.game2 {
+    background: none;
+    background-color: transparent;
+}
+
+.game2Img{
+    background: none;
+    background-color: transparent;
+}
+.game2 small {
+    background: none;
+    background-color: transparent;
+}
+.PillGame center{
+    background: none;
+    background-color: transparent;
+}
+.PillGame h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.PillGame h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
+}
+.mainPillGame {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+    background: none;
+    background-color: transparent;
+    
+    
+}
+.PillGame {
+    color: #fff;
+    background-image: url("/images/pillBlue.png"); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+.Bottom__spacer {
+    color: #141414;
+    padding-top: 100px;
+}
+
