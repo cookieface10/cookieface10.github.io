@@ -7,7 +7,7 @@
 }
 .navbar {
     background: #131313;
-    height: 80px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 75px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -454,4 +454,83 @@ background-color: transparent;
     color: #141414;
     padding-top: 100px;
 }
+.Resume h4{
+    padding-top: 50px;
+    color: #0482e9 ;
+    font-size: 2.2rem;
+}
+.Resume h1{
+    padding-top: 125px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #0962ba;
+    background-image: linear-gradient(to top, #09C6F9 0%, #045DE9 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 2.2rem;
+}
+.Resume a{
+    padding-right: 15px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.Title {
+    color: #fff;
+    font-size: 0.8rem;
+}
+.objectve {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.education {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.skills {
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.skills h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.personalProjects {
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.personalProjects h2{
+    font-size: 1.2rem;
+}
+.ProjectSlot {
+    padding-bottom: 125px;
+}
+#Date {
+    white-space: nowrap;
+    overflow-x: auto;
+    color: #fff;
+    font-size: 1.5rem;
+    display:inline-block;
+    float: right;
 
+}
+#Type {
+    white-space: nowrap;
+    overflow-x: auto;
+    color: #fff;
+    font-size: 1.5rem;
+    display:inline-block;
+    text-align: left;
+}
