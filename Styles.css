@@ -329,7 +329,7 @@ background-color: #2688eb;
     background: none;
     background-color: transparent;
     background-image: url("/images/Claws.png");
-    background-size: 90%;
+    background-size: 80%;
     background-repeat: no-repeat;
 }
 .WolfGame h1 {
@@ -342,13 +342,7 @@ background-color: #2688eb;
     background: none;
     background-color: transparent;
 }
-.wolflink{
-    color: #fff;
-    text-decoration: none;
-    background: none;
-    background-color: transparent;
 
-}
 .WolfGame h2 {
     padding: 5px;
     font-size: 2.1rem;
@@ -361,12 +355,19 @@ background-color: #2688eb;
     background: none;
 background-color: transparent;
 }
+.wolflink{
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    background-color: transparent;
 
+}
 #Project__img {
 width: 90%;
 height: 90%;
 background: none;
 background-color: transparent;
+
 }
 
 .description {
@@ -533,4 +534,36 @@ background-color: transparent;
     font-size: 1.5rem;
     display:inline-block;
     text-align: left;
+}
+.TreeGame {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-color: transparent;
+    background-image: url("/images/BlueTreeBack.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.TreeGame h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.TreeGame center{
+    background: none;
+    background-color: transparent;
+}
+
+.TreeGame h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.TreeGame h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
 }
