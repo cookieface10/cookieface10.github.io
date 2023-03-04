@@ -17,7 +17,7 @@
     z-index: 999;
 }
 
-.navbar__container {
+.navbarMain {
     display: flex;
     justify-content: space-between;
     height: 75px;
@@ -29,7 +29,7 @@
     background: #131313;
 }
 
-#navbar__logo {
+#navbarLogo {
     background-color: #0962ba;
     background-image: linear-gradient(to top, #09C6F9 0%, #045DE9 100%);
     background-size: 100%;
@@ -46,7 +46,7 @@
 
 
 
-.navbar__menu{
+.navbarMenu{
     display: flex;
     align-items: center;
     list-style: none;
@@ -54,11 +54,11 @@
     background: #131313;
 }
 
-.navbar__items {
+.navbarItems {
     height: 80px;
 }
 
-.navbar__links {
+.navbarLinks {
     color: #fff;
     display: flex;
     align-items: center;
@@ -68,22 +68,16 @@
     height: 100%;
 }
 
-.navbar__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-}
 
-.navbar__links:hover {
+
+.navbarLinks:hover {
  color: #1372d1;
  transition: all 0.3s ease;
 }
 
 
 @media screen and (max-width: 960px) {
-    .navbar__container {
+    .navbarMain {
       display: flex;
       justify-content: space-between;
       height: 80px;
@@ -93,7 +87,7 @@
       padding: 0;
     }
   
-    .navbar__menu {
+    .navbarMenu {
       display: grid;
       grid-template-columns: auto;
       margin: 0;
@@ -106,7 +100,7 @@
       z-index: -1;
     }
   
-    .navbar__menu.active {
+    .navbarMenu.active {
       background: #131313;
       top: 100%;
       opacity: 1;
@@ -116,11 +110,11 @@
       font-size: 1.6rem;
     }
   
-    #navbar__logo {
+    #navbarLogo {
       padding-left: 25px;
     }
   
-    .navbar__toggle .bar {
+    .navbarToggler .bar {
       width: 25px;
       height: 3px;
       margin: 5px auto;
@@ -128,11 +122,11 @@
       background: #fff;
     }
 
-    .navbar__item {
+    .navbarItem {
         width:  100%;
     }
 
-    .navbar__links {
+    .navbarLinks {
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -155,14 +149,12 @@
         transform: translate(5%, 20%);
     }
 
-    .navbar__toggle .bar {
+    .navbarToggler .bar {
         display: block;
         cursor: pointer;
     }
 
-    .navbar__btn {
-        padding-bottom: 2rem;
-    }
+
     
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
@@ -187,7 +179,7 @@
     color: #fff;
     
 }
-.main__container{
+.mainContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -201,7 +193,7 @@
     padding: 0 50px;
 }
 
-.main__content h1 {
+.mainInfo h1 {
     font-size: 4rem;
     background-color: #1372d1;
     background-image: linear-gradient(to top,#09C6F9 0%, #045DE9 100%);
@@ -212,7 +204,7 @@
     -moz-text-fill-color: transparent;
 }
 
-.main__content h2 {
+.mainInfo h2 {
     font-size: 2rem;
     padding: 1rem;
     background-color: #1372d1;
@@ -234,7 +226,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .main__container{
+    .mainContainer{
         display: grid;
         grid-template-columns: auto;
         align-items: center;
@@ -245,17 +237,17 @@
         background-color: #141414;
     }
 
-    .main__content {
+    .mainInfo {
         text-align: center;
         margin-bottom: 4rem;
     }
     
-    .main__content h1 {
+    .mainInfo h1 {
         font-size: 2.5rem;
         margin-top: 2rem;
     }
     
-    .main__content h2 {
+    .mainInfo h2 {
         font-size: 2rem;
     }
 
@@ -369,7 +361,14 @@ background: none;
 background-color: transparent;
 
 }
-
+#Project__img__Explorer {
+    width: 70%;
+    height: 70%;
+    padding-left: 200px;
+    background: none;
+    background-color: transparent;
+    
+    }
 .description {
 background: none;
 background-color: transparent;
@@ -563,6 +562,39 @@ background-color: transparent;
     
 }
 .TreeGame h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
+}
+.Explorer {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-position-y: 0px;
+    background-color: transparent;
+    background-image: url("/images/BlueIsland.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.Explorer h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.Explorer center{
+    background: none;
+    background-color: transparent;
+}
+
+.Explorer h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.Explorer h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
