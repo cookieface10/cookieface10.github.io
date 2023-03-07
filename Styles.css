@@ -361,14 +361,29 @@ background: none;
 background-color: transparent;
 
 }
+#Project__img__Tree{
+width: 105%;
+height: 105%;
+background: none;
+background-color: transparent;
+
+}
+#Project__img__Pill{
+width: 90%;
+height: 90%;
+background: none;
+padding-left: 60px;
+background-color: transparent;
+
+}
 #Project__img__Explorer {
     width: 60%;
     height: 60%;
-    padding-right: 60px;
+    padding-left: 60px;
     background: none;
     background-color: transparent;
     
-    }
+}
 .description {
 background: none;
 background-color: transparent;
@@ -570,7 +585,7 @@ background-color: transparent;
     color: #fff;
     background: none;
     background-position: 50%;
-    background-position-y: 0px;
+    background-position-y: -30px;
     background-color: transparent;
     background-image: url("/images/BlueIsland.png");
     background-size: 90%;
