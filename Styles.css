@@ -101,7 +101,7 @@
     }
   
     .navbarMenu.active {
-      background: #131313;
+      background: #141414;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -113,7 +113,8 @@
     #navbarLogo {
       padding-left: 25px;
     }
-  
+
+
     .navbarToggler .bar {
       width: 25px;
       height: 3px;
