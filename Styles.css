@@ -181,8 +181,8 @@
     
 }
 .mainContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
+    
     align-items: center;
     justify-self: center;
     margin: 0 auto;
@@ -196,9 +196,11 @@
 
 .mainInfo h1 {
     font-size: 4rem;
+    text-align: center;
+    padding-top: 5px;
     background-color: #1372d1;
     background-image: linear-gradient(to top,#09C6F9 0%, #045DE9 100%);
-    background-size: 100%;
+    background-size: 500%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -206,8 +208,10 @@
 }
 
 .mainInfo h2 {
-    font-size: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
     padding: 1rem;
+    padding-top: 8rem;
     background-color: #1372d1;
     background-image: linear-gradient(to top,#ffffff 0%, #c3d9fc 100%);
     background-size: 100%;
@@ -262,7 +266,7 @@ footer{
     background: #131313;
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 footer h1{
