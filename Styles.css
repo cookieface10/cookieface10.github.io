@@ -647,3 +647,39 @@ background-color: transparent;
     background: none;
     background-color: transparent;
 }
+.FishGame {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-color: transparent;
+    background-image: url("/images/Ocean.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.FishGame h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.FishGame center{
+    background: none;
+    background-color: transparent;
+}
+
+.FishGame h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.FishGame h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
+}
+.FishGame strong {
+    color: #ffffff;
+    font-weight: 800;
+}
