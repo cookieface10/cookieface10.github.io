@@ -329,7 +329,7 @@ background-color: #2688eb;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .WolfGame center{
     background: none;
@@ -338,15 +338,15 @@ background-color: #2688eb;
 
 .WolfGame h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
-    
 }
 .WolfGame h3 {
     padding: 10px;
     background: none;
-background-color: transparent;
+    background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .wolflink{
     color: #fff;
@@ -378,16 +378,17 @@ background-color: transparent;
 
 }
 #Project__img__Explorer2 {
-
-    padding-left: 60px;
+    width: 80%;
+    height: 80%;
+    padding-left: 20%;
     background: none;
     background-color: transparent;
-    
 }
 #Project__img__Explorer1 {
     width: 80%;
     height: 80%;
-    padding-left: 180px;
+    float: right;
+    padding-right: 20%;
     background: none;
     background-color: transparent;
     
@@ -414,7 +415,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .game2 {
     background: none;
@@ -435,7 +436,7 @@ background-color: transparent;
 }
 .PillGame h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
     
@@ -444,6 +445,7 @@ background-color: transparent;
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .mainPillGame {
     display: grid;
@@ -569,7 +571,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .Legend center{
     background: none;
@@ -578,13 +580,14 @@ background-color: transparent;
 
 .Legend h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
     
 }
 .Legend h3 {
     padding: 10px;
+    font-size: calc(0.7vw + 0.7vh);
     background: none;
     background-color: transparent;
 }
@@ -601,7 +604,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .TreeGame center{
     background: none;
@@ -610,7 +613,7 @@ background-color: transparent;
 
 .TreeGame h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
     
@@ -619,6 +622,7 @@ background-color: transparent;
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .Explorer2 {
     color: #fff;
@@ -634,7 +638,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .Explorer2 center{
     background: none;
@@ -643,15 +647,15 @@ background-color: transparent;
 
 .Explorer2 h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
-    
 }
 .Explorer2 h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .Explorer1 {
     color: #fff;
@@ -667,7 +671,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .Explorer1 center{
     background: none;
@@ -676,15 +680,15 @@ background-color: transparent;
 
 .Explorer1 h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
-    
 }
 .Explorer1 h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .HuntGame {
     color: #fff;
@@ -699,7 +703,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .HuntGame center{
     background: none;
@@ -708,15 +712,15 @@ background-color: transparent;
 
 .HuntGame h2 {
     padding: 5px;
-    font-size: 2.1rem;
     background: none;
     background-color: transparent;
-    
+    font-size: calc(1.25vw + 1.25vh);
 }
 .HuntGame h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .FishGame {
     color: #fff;
@@ -731,7 +735,7 @@ background-color: transparent;
     padding-top: 100px;
     background: none;
     background-color: transparent;
-
+    font-size: calc(1.15vw + 1.15vh);
 }
 .FishGame center{
     background: none;
@@ -740,15 +744,15 @@ background-color: transparent;
 
 .FishGame h2 {
     padding: 5px;
-    font-size: 2.1rem;
+    font-size: calc(1.25vw + 1.25vh);
     background: none;
     background-color: transparent;
-    
 }
 .FishGame h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
 .FishGame strong {
     color: #ffffff;
