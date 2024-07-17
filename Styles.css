@@ -377,10 +377,17 @@ padding-left: 60px;
 background-color: transparent;
 
 }
-#Project__img__Explorer {
-    width: 60%;
-    height: 60%;
+#Project__img__Explorer2 {
+
     padding-left: 60px;
+    background: none;
+    background-color: transparent;
+    
+}
+#Project__img__Explorer1 {
+    width: 80%;
+    height: 80%;
+    padding-left: 180px;
     background: none;
     background-color: transparent;
     
@@ -521,7 +528,6 @@ background-color: transparent;
     font-size: 1.5rem;
 }
 .personalProjects {
-    
     padding-left: 15%;
     padding-right: 15%;
     color: #fff;
@@ -549,6 +555,38 @@ background-color: transparent;
     font-size: 1.5rem;
     display:inline-block;
     text-align: left;
+}
+.Legend {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-color: transparent;
+    background-image: url("/images/BlueAdventure.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+.Legend h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.Legend center{
+    background: none;
+    background-color: transparent;
+}
+
+.Legend h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.Legend h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
 }
 .TreeGame {
     color: #fff;
@@ -582,7 +620,7 @@ background-color: transparent;
     background: none;
     background-color: transparent;
 }
-.Explorer {
+.Explorer2 {
     color: #fff;
     background: none;
     background-position: 50%;
@@ -592,25 +630,58 @@ background-color: transparent;
     background-size: 90%;
     background-repeat: no-repeat;
 }
-.Explorer h1 {
+.Explorer2 h1 {
     padding-top: 100px;
     background: none;
     background-color: transparent;
 
 }
-.Explorer center{
+.Explorer2 center{
     background: none;
     background-color: transparent;
 }
 
-.Explorer h2 {
+.Explorer2 h2 {
     padding: 5px;
     font-size: 2.1rem;
     background: none;
     background-color: transparent;
     
 }
-.Explorer h3 {
+.Explorer2 h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
+}
+.Explorer1 {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-position-y: -30px;
+    background-color: transparent;
+    background-image: url("/images/BlueCity.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.Explorer1 h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+
+}
+.Explorer1 center{
+    background: none;
+    background-color: transparent;
+}
+
+.Explorer1 h2 {
+    padding: 5px;
+    font-size: 2.1rem;
+    background: none;
+    background-color: transparent;
+    
+}
+.Explorer1 h3 {
     padding: 10px;
     background: none;
     background-color: transparent;
