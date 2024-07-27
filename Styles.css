@@ -375,7 +375,6 @@ height: 90%;
 background: none;
 padding-left: 60px;
 background-color: transparent;
-
 }
 #Project__img__Explorer2 {
     width: 80%;
@@ -757,4 +756,37 @@ background-color: transparent;
 .FishGame strong {
     color: #ffffff;
     font-weight: 800;
+}
+.DoorGame {
+    color: #fff;
+    background: none;
+    background-position: 50%;
+    background-color: transparent;
+    background-image: url("/images/doorBlue.png");
+    background-size: 70%;
+    background-position-y:bottom;
+    background-repeat: no-repeat;
+}
+.DoorGame h1 {
+    padding-top: 100px;
+    background: none;
+    background-color: transparent;
+    font-size: calc(1.15vw + 1.15vh);
+}
+.DoorGame center{
+    background: none;
+    background-color: transparent;
+}
+
+.DoorGame h2 {
+    padding: 5px;
+    background: none;
+    background-color: transparent;
+    font-size: calc(1.25vw + 1.25vh);
+}
+.DoorGame h3 {
+    padding: 10px;
+    background: none;
+    background-color: transparent;
+    font-size: calc(0.7vw + 0.7vh);
 }
